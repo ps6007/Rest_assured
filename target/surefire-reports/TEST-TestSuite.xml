@@ -1,77 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.886" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.583" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.specification.version" value="11"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\dubey\eclipse-workspace\RestAssured_practice\target\test-classes;C:\Users\dubey\eclipse-workspace\RestAssured_practice\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.0.7\extentreports-3.0.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\2.0.0-alpha6\slf4j-api-2.0.0-alpha6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-simple\2.0.0-alpha6\slf4j-simple-2.0.0-alpha6.jar;"/>
+    <property name="java.class.path" value="C:\Users\POOJA SINGH\Downloads\1\Rest_assured\target\test-classes;C:\Users\POOJA SINGH\Downloads\1\Rest_assured\target\classes;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\testng\testng\7.5\testng-7.5.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\aventstack\extentreports\3.0.7\extentreports-3.0.7.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\junit\junit\4.10\junit-4.10.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\slf4j\slf4j-api\2.0.0-alpha6\slf4j-api-2.0.0-alpha6.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\slf4j\slf4j-simple\2.0.0-alpha6\slf4j-simple-2.0.0-alpha6.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire4364397538291104426\surefirebooter14641021617040502982.jar C:\Windows\Temp\surefire4364397538291104426 2022-03-18T10-45-58_938-jvmRun1 surefire9193057797869379822tmp surefire_02906170097779064921tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\dubey\eclipse-workspace\RestAssured_practice\target\test-classes;C:\Users\dubey\eclipse-workspace\RestAssured_practice\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.0.7\extentreports-3.0.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\2.0.0-alpha6\slf4j-api-2.0.0-alpha6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-simple\2.0.0-alpha6\slf4j-simple-2.0.0-alpha6.jar;"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin"/>
+    <property name="sun.java.command" value="C:\Users\POOJA SINGH\AppData\Local\Temp\surefire6461889590563372755\surefirebooter2089833487112294238.jar C:\Users\POOJA SINGH\AppData\Local\Temp\surefire6461889590563372755 2022-04-03T01-51-57_120-jvmRun1 surefire7522590520808129117tmp surefire_08444448931159425724tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\POOJA SINGH\Downloads\1\Rest_assured\target\test-classes;C:\Users\POOJA SINGH\Downloads\1\Rest_assured\target\classes;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\testng\testng\7.5\testng-7.5.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\aventstack\extentreports\3.0.7\extentreports-3.0.7.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\junit\junit\4.10\junit-4.10.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\slf4j\slf4j-api\2.0.0-alpha6\slf4j-api-2.0.0-alpha6.jar;C:\Users\POOJA SINGH\.jenkins\maven-repositories\0\org\slf4j\slf4j-simple\2.0.0-alpha6\slf4j-simple-2.0.0-alpha6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.home" value="C:\Users\POOJA SINGH"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-07-20"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_202"/>
+    <property name="basedir" value="C:\Users\POOJA SINGH\Downloads\1\Rest_assured"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\dubey\eclipse-workspace\RestAssured_practice"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire4364397538291104426\surefirebooter14641021617040502982.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\POOJA SINGH\AppData\Local\Temp\surefire6461889590563372755\surefirebooter2089833487112294238.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_202\lib\resources.jar;C:\Program Files\Java\jre1.8.0_202\lib\rt.jar;C:\Program Files\Java\jre1.8.0_202\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_202\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_202\lib\jce.jar;C:\Program Files\Java\jre1.8.0_202\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_202\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_202\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
-    <property name="user.name" value="DESKTOP-493EAAE$"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="POOJA SINGH"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
-    <property name="java.version" value="11.0.12"/>
-    <property name="user.dir" value="C:\Users\dubey\eclipse-workspace\RestAssured_practice"/>
+    <property name="localRepository" value="C:\Users\POOJA SINGH\.jenkins\maven-repositories\0"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\POOJA SINGH\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\POOJA SINGH\Downloads\1\Rest_assured"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\POOJA SINGH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_apache-maven-3.8.5/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\POOJA SINGH\AppData\Local\Microsoft\WindowsApps;C:\Users\POOJA SINGH\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="maven.repo.local" value="C:\Users\POOJA SINGH\.jenkins\maven-repositories\0"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test01" classname="tests.Test01_GET" time="6.187">
+  <testcase name="test01" classname="tests.Test01_GET" time="2.875">
     <system-out><![CDATA[{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 200
 HTTP/1.1 200 OK
 null
-2109
+1717
 ]]></system-out>
   </testcase>
-  <testcase name="test02" classname="tests.Test01_GET" time="0.875">
+  <testcase name="test02" classname="tests.Test01_GET" time="0.964">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Fri, 18 Mar 2022 05:16:10 GMT
+Date: Sat, 02 Apr 2022 20:22:11 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -81,13 +82,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1029
+Age: 4146
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DLidzilKtqhn2L5v3Nf5DWMDkwCajOevE4Ml1LPgGOCV1WqH2r4va4VdLaB86otE5bYvs6tN0%2F3UezlHyme1fgOfSCiTgp6BLrDeSoEX1zLX8cjS7AkSFGyvGhY%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2A2AqS9sJV%2F%2FlzVS4YmVIqKfzk7Fj1Cr8wdhY1Vfd7BWQIqXu3N8XhzotzgqgfVyS23ZXpQ9YMm%2FG6Dyt9Zw%2BezQCRfP5zxI5Si16YT7Erbw4b7DJdMs8vHEOrU%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 6edb7ea88a8288bc-LHR
+CF-RAY: 6f5c4673cc594078-LHR
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
@@ -148,9 +149,9 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 TEst
 ]]></system-out>
   </testcase>
-  <testcase name="test03" classname="tests.Test01_GET" time="2.265">
+  <testcase name="test03" classname="tests.Test01_GET" time="1.525">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Fri, 18 Mar 2022 05:16:12 GMT
+Date: Sat, 02 Apr 2022 20:22:13 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 9593
 Connection: keep-alive
@@ -344,9 +345,9 @@ A simple HTTP Request &amp; Response Service.
 </html>
 ]]></system-out>
   </testcase>
-  <testcase name="test_01" classname="tests.Test02_Get" time="3.343">
+  <testcase name="test_01" classname="tests.Test02_Get" time="1.585">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Fri, 18 Mar 2022 05:16:14 GMT
+Date: Sat, 02 Apr 2022 20:22:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -356,13 +357,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 2138
+Age: 3587
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4ecLZC8boZP8%2BbKvSvIpfGyrsyhftm2oqx9YHSLM5XNzxWLb6EKk1SglAGg6kkcYe7SNEGmxFoaf822lfHmpPjTSPWw3djp1S1jKcmxMmM44yzrBixjLrQYqF5Y%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mA%2B0XTxCyiSDkULRlE9POLwdxmjAZHfy%2B0YMW64xhZJOWkdP2Gmi1zlmo2pxEbNRYwyg8HiuGnygo%2BiOz9aYCFS0EvUHIE2WWqPJY1wlNxWpavkSC5mDL4zpSX4%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 6edb7ebc5d128e18-LHR
+CF-RAY: 6f5c4683283a7737-LHR
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
@@ -422,9 +423,107 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="test01_post" classname="tests.Test02_POST" time="0.728">
+  <testcase name="test01_post" classname="tests.Test02_POST" time="0.945">
     <system-out><![CDATA[{"name":"shivam","job":"QA"}
 {"name":"shivam","job":"QA"}
+HTTP/1.1 201 Created
+Date: Sat, 02 Apr 2022 20:22:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 78
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4e-aH1bCWEWT2TCdYHJ6Due7HlwTc8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GLR5UmqcfdkaQQbqk3g7OAoVe0IeUU7Ix80pbEOy5ATSxYG1JwoYdx%2BjsWCO7icqABu3%2FN%2B2JMdGcGls%2FuvVAY3kUFsfRlG7U9EGjjoEtqtrq5nb%2FCu0SHmUOn0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f5c468d791a755e-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "shivam",
+    "job": "QA",
+    "id": "627",
+    "createdAt": "2022-04-02T20:22:15.964Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test02_put" classname="tests.Test02_POST" time="0.871">
+    <system-out><![CDATA[{"name":"shivam","job":"QA"}
+{"name":"shivam","job":"QA"}
+HTTP/1.1 200 OK
+Date: Sat, 02 Apr 2022 20:22:16 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"43-uVf2wtVlYmUSPpe+v+B0PKR2E3I"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fvd3NJEJORqJetivGlsOU3G2HiuyHn1RGAESsN4M3imNCgcI3zgmHsxwXEr7tWqIeNizRl0GgSIl%2B1vohlQdFRa6VnFApWMopvtZnYdmDdYzS0Oroo4QAZRGOe0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6f5c46930cef76e9-LHR
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "shivam",
+    "job": "QA",
+    "updatedAt": "2022-04-02T20:22:16.839Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test03_patch" classname="tests.Test02_POST" time="0.86">
+    <system-out><![CDATA[{"name":"shivam","job":"QA"}
+{"name":"shivam","job":"QA"}
+HTTP/1.1 200 OK
+Date: Sat, 02 Apr 2022 20:22:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"43-PQ63Ij8NkHNYSfaApeRmD7rS9Bk"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tSNGHKh8rKwBAnn7HCjxIbpSOj%2BfcZjrC9xJfL38iTtPGHDQU4BaXccvr3APXOmN1e1MlsT2AASlZ5BTjK%2BauCuqkZDKMryS2vzhv2te2YgXOp9%2B3XuVgvfIHOk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f5c46986ef774b1-LHR
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "shivam",
+    "job": "QA",
+    "updatedAt": "2022-04-02T20:22:17.703Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test04_patch" classname="tests.Test02_POST" time="0.891">
+    <system-out><![CDATA[HTTP/1.1 204 No Content
+Date: Sat, 02 Apr 2022 20:22:18 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iL2T8QHaTbG705gPC4TabnQxG9ahSzzK5zs4zu3QeCQyTOWIVxfs8joJIBzX27CMFbgrkMqumxBqDAEzIdlxk%2FVyaGyjDsMSiWGkL4G%2Fz6%2Fyk%2FjV%2FekB9W2m%2BHQ%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f5c469dfa1b72d8-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 ]]></system-out>
   </testcase>
 </testsuite>

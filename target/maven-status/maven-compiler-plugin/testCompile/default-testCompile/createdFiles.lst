@@ -1,0 +1,4 @@
+tests\Test01_GET.class
+extent\ExtentReporterNG.class
+tests\Test02_Get.class
+tests\Test02_POST.class
